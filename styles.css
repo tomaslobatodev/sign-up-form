@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+.sideImg {
+    width: 33%;
+    height: 100%;
+}
+
+.sideImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.sideImg div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 20%;
+    background-color:rgba(0, 0, 0, 0.705);
+    height: 100px;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px
+}
+
+.sideImg div span {
+    color: white;
+    font-size: 35px;
+}
+
+.sideImg div .logo {
+    width: 45px;
+    height: 60px;
+}
+
+.content {
+    width: 67%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    font-family: 'Segoe UI';
+}
+
+.content h1 {
+    font-size: 35px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    width: 60%;
+    margin-top: 35px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+}
+
+form div:hover {
+    font-weight: bold;
+    font-size: 10px;
+    transition: .2s;
+}
+
+form div label {
+    font-size: 12px;
+}
+
+form div input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    box-sizing: border-box;
+    outline: none;
+}
+
+form div input:focus {
+    border: 2px solid black;
+}
+
+form button {
+    padding: 10px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: white;
+    color: black;
+    transition: .3s;
+    cursor: pointer;
+}
